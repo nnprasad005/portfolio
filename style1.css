@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+
+:root{
+    --primary_color:red;
+    --secondary_color:brown;
+    --env_color:rgb(124, 228, 124);
+}
+.body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body {
+   
+    font-size:22px;
+    margin:0px;
+  
+}
+.h1{
+    font-size: 1.5em;
+    margin-block-start: 0rem;
+    margin-block-end: 0.83em;
+}
+
+.container-pf {
+    padding-top:2rem;
+  
+    padding-left: 1rem;
+    padding-right: 2rem
+}
+
+.container-p {
+    color:greenyellow;
+    padding-top:2rem;
+    padding-bottom:0rem;
+    padding-left: 1rem;
+    padding-right: 2rem
+}
+
+.container-fluid {
+    margin:auto;
+    max-width: 600px;
+    padding-top:0rem;
+    padding-bottom:0rem;
+    padding-left: 1rem;
+    padding-right: 2rem
+}
+
+.container-centre {
+    margin: auto;
+    max-width: 500px;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.75rem 1rem;
+    
+}
+hr{
+    margin:1rem 0rem;
+}
+.link-colors{
+   
+    color:rgb(24, 219, 66);
+    background-color: brown;
+    background-size:100px 100px;
+    text-decoration-color: rgb(24, 219, 66);
+    border-top-left-radius:0.5rem; 
+    border-bottom-left-radius:0.5rem; 
+    border-bottom-right-radius:0.5rem; 
+    border-top-right-radius:0.5rem; 
+}
+
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+    text-decoration: none;
+    padding:0rem 0.5rem;
+    display: inline;
+}
+.navigate{
+
+    background-color:var(--secondary_color);
+    border-bottom-right-radius: 0.5rem
+}
+.navigate .right .inline-list{
+    color:greenyellow
+}
+.navigate .right{
+    text-align: right;
+   
+}
+.link-active{
+    font-weight: bold;
+}
+.image{
+    display:block;
+    max-width: 500px ;
+    padding-top:1rem;
+    margin:auto
+}
+.me{
+    display:block;
+    margin:auto;
+    max-width:400px;
+    text-align:center;
+}
+ .me .exme{
+color:blueviolet;
+}
+.exme{
+    color:rgb(214, 121, 15);
+    }
+
+.section h1,h2,h3,h4{
+    text-align: center;
+    margin:auto;
+
+}
+.ws{
+    text-align: center;
+}
+.uws{
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
+    padding-left:0rem;
+   background-color: brown;
+}
+.grey{
+    color: yellowgreen;
+    text-align: center;
+    margin:auto;
+    margin:0px;
+    background-color: brown
+}
+.rightl{
+    float: right;
+    margin:auto
+}
+.container-mid{
+    padding-top: 1rem;
+    width: 1200px;
+    max-width:100%;
+    margin:auto;
+    text-align: center;
+
+}
